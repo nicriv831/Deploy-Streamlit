@@ -11,7 +11,7 @@ st.write("Let's see how likely a client is to have payment problems")
 
 @st.cache_data
 def load_data():
-  return pd.read_csv('Data/Raw_Data/Filtered_Train_App.csv')
+  return pd.read_csv('for_deploy.csv')
 
 trained = load_data()
 
