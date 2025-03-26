@@ -79,7 +79,7 @@ for feat in trained.columns:
                                                        'Bank', 'Agriculture', 'Police', 'Postal', 'Security', 'Restaurant', 'Services', 'University', 'Hotel', 'Electricity', 'Insurance',
                                                        'Telecom', 'Emergency', 'Advertising', 'Realtor', 'Culture', 'Mobile', 'Legal', 'Cleaning','Religion'))
     #  elif feat == 'NAME_GOODS_CATEGORY':
-    #    prediction.loc[0, feat] =
+    #    prediction.loc[0, feat] = #
 
 st.dataframe(prediction)
 
